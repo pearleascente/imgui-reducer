@@ -3,7 +3,7 @@ A small library that makes writing code for the ImGui interface easier.
 
 ## Includes
 
-fast Window, fast Child, fast Group, fast Button.
+Window, Child, Group, Button.
 
 ## Examples
 
