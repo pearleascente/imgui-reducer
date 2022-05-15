@@ -1,0 +1,8 @@
+
+*.json
+*.db-shm
+*.sqlite
+*.db-wal
+*.db
+*.opendb
+.vs/imgui-reducer/v16/.suo
