@@ -11,7 +11,7 @@ Window, Child, Group, Button.
 auto mOpened = true;
 auto mFlags = ImGuiWindowFlags_NoTitleBar;
 
-IR::Window("Label", &IsOpened, ImGuiWindowFlags_NoTitleBar, []() {
+IR::Window("Label", &IsOpened, mFlags, []() {
   IR::Button("Click on me!", ImVec2(100, 25), [](){
     MessageBoxA(0, "Clicked", 0, 0);
   });
